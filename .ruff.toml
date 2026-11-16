@@ -1,0 +1,12 @@
+builtins = ["d3"]
+line-length = 100
+indent-width = 4
+
+[format]
+exclude = ["*.pyi"]
+preview = true
+quote-style = "preserve"
+
+[lint]
+exclude = ["*.pyi"]
+"ignore" = ["BLE001", "I001", "F401", "F841", "N999", "UP032"]

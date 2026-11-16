@@ -1,0 +1,15 @@
+.DS_Store
+.vscode
+.idea
+
+node_modules
+dist
+dist-ssr
+*.local
+
+.venv
+*.py.d.ts
+__pycache__
+
+uv.lock
+package-lock.json

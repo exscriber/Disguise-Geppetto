@@ -1,0 +1,27 @@
+{
+  "name": "disguise-geppetto",
+  "description": "Giuseppe Geppetto - Master of Puppets",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "check": "svelte-check",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@disguise-one/designer-pythonapi": "github:disguise-one/designer-pythonapi",
+    "@sveltejs/vite-plugin-svelte": "^7.3.0",
+    "@tailwindcss/vite": "^4.3.5",
+    "@tsconfig/svelte": "^5.0.0",
+    "@types/node": "^26.6.0",
+    "daisyui": "^5.8.1",
+    "oxfmt": "^0.79.0",
+    "svelte": "^5.57.0",
+    "svelte-check": "^4.7.0",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.0"
+  }
+}

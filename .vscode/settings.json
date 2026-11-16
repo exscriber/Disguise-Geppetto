@@ -1,0 +1,21 @@
+{
+    "editor.rulers": [ 100 ],
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "oxc.enable.oxfmt": true,
+    "editor.defaultFormatter": "oxc.oxc-vscode",
+
+    "python.analysis.ignore": [ "*.pyi" ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingModuleSource": "none",
+        "reportInvalidTypeForm": "none",
+    },
+
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features",
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+}
